@@ -2,12 +2,16 @@
   "name": "@up-skill/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "add-project": "npx nx g @nx/react:app",
+    "add-library": "npx nx g @nx/react:lib"
+  },
   "private": true,
   "dependencies": {
     "@swc/helpers": "~0.5.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.11.2"
   },
   "devDependencies": {
     "@nx/cypress": "16.3.2",
@@ -43,6 +47,7 @@
     "sass": "^1.55.0",
     "typescript": "~5.0.2",
     "vite": "^4.3.4",
+    "vite-plugin-dts": "~1.7.1",
     "vite-plugin-eslint": "^1.8.1",
     "vite-tsconfig-paths": "^4.0.2",
     "vitest": "^0.31.0"
