@@ -3,8 +3,18 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "add-project": "npx nx g @nx/react:app",
-    "add-library": "npx nx g @nx/react:lib"
+    "add:project": "npx nx g @nx/react:app",
+    "add:library": "npx nx g @nx/react:lib",
+
+    "start:blog": "nx serve blog",
+    "start:bjit": "nx serve bjit",
+    "start:academy": "nx serve academy",
+
+    "build:blog": "nx build blog",
+    "build:bjit": "nx build bjit",
+    "build:academy": "nx build academy"
+
+
   },
   "private": true,
   "dependencies": {
